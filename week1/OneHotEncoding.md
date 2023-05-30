@@ -1,8 +1,9 @@
-- to convert non-numerical datatype into numerical data type
+Jupyter:
+- To convert non-numerical datatype into numerical data type
 - Scikit-learn can simply do encoding with `DictVectorizer`
 - Sparse Method: sparse row format, can `set to False`
-- it creates new-binary columns for each category in a feature
-- if add an numerical column the DictVectorizer wouldn't convert it
+- It creates new-binary columns for each category in a feature
+- If add an numerical column the DictVectorizer wouldn't convert it
 
 
 VM:
@@ -13,4 +14,3 @@ VM:
 - Size: 30g storage
 - Machine type: e2-standard-4(4vCPU 16Gb Memory)
 - ssh pub key is at `~/.shh/gcp.pub`
-- 
